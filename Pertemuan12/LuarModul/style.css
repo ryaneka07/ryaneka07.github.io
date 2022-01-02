@@ -1,0 +1,55 @@
+* html {
+    padding: 0;
+    margin: 0;
+}
+.menu{
+		background-color: #3141ff;
+	}
+ 
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+ 
+.menu > ul > li {
+float: left;
+}
+ 
+	
+.menu li a {
+    display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+ 
+.menu li a:hover{
+	background-color: #2525ff;
+}
+.tekshome {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: #2525ff;
+    background-color: aqua;
+}
+.teks {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    background-color: darkgreen;
+}
+footer {
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+    background-color: blue;
+    color: white;
+}

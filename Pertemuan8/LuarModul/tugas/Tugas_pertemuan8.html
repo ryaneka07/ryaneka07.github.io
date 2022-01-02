@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas Pembuatan Formulir</title>
+</head>
+
+<body>
+    <!-- NAMA, TGL LAHIR, ALAMAT, KOTA, PEKERJAAN, JENIS KELAMIN, HOBBY -->
+    <form action="">
+        <h1 class="teks">Free Registration</h1><br>
+        <pre class="pre">
+            Nama      : <input type="text" size="20" name="nama" id="">
+
+            Tgl Lahir : <input type="text" size="5" name="tgl_lahir" id="">/<input type="text" size="5" name="tgl_lahir" id="">/<input type="text" size="10" name="tgl_lahir" id="">
+
+            Alamat    :
+                              <textarea name="alamat" id="" cols="32" rows="4"></textarea>
+                        
+
+            Kota      : <input type="text" size="20" name="kota" id="">
+
+            Pekerjaan : <select name="pekerjaan" size="1" id="">
+                <option value="Tani">Tani</option>
+                <option value="Wirausaha">Wirausaha</option>
+                <option value="Guru">Guru</option>
+                <option value="Dosen">Dosen</option>
+            </select>
+
+            Jenis Kelamin : <input type="radio" name="jkel" value="Laki-Laki" id="">Laki-Laki <input type="radio" name="jkel" value="Perempuan" id="">Perempuan
+
+            Hobby : <input type="checkbox" name="hobby" value="Reading" id="">Reading
+                          <input type="checkbox" name="hobby" value="Sport" id="">Sport
+                          <input type="checkbox" name="hobby" value="Singing" id="">Singing
+                          <input type="checkbox" name="hobby" value="Traveling" id="">Traveling
+                    <br>
+                    <input type="submit" value="Kirim">   <input type="reset" value="Cancel">
+        </pre>
+    </form>
+</body>
+
+</html>

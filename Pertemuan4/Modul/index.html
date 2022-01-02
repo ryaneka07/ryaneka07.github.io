@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menampilkan Video</title>
+</head>
+
+<body>
+    <div style="text-align:center">
+        <button onclick="tekanPause()">Play/Pause</button>
+        <button onclick="menjadiBig()">Big</button>
+        <button onclick="menjadiSmall()">Small</button>
+        <button onclick="menjadiNormal()">Normal</button>
+        <br><br>
+        <video id="videoku" width="430">
+            <source src="Video/Video1.mp4" type="video/mp4">
+            <source src="Video/Video1.mp4" type="video/ogg">
+        </video>
+    </div>
+    <script>
+        var VideoAku = document.getElementById("videoku");
+        function tekanPause() {
+            if (VideoAku.paused)
+                VideoAku.play();
+            else
+                VideoAku.pause();
+        }
+        function menjadiBig() {
+            VideoAku.width = 560;
+        }
+        function menjadiSmall() {
+            VideoAku.width = 320;
+        }
+        function menjadiNormal() {
+            VideoAku.width = 430;
+        } 
+    </script>
+</body>
+
+</html>
